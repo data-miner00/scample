@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <sys/utime.h>
 #include <stdint.h>
+#include <shaun.h>
 #define then {
 #define end }
 #define peace return
@@ -14,8 +16,6 @@
 #elif __STDC_VERSION__ < 199901L
 #define true 1
 #define false 0
-typedef int _Bool;
-#define bool _Bool
 #endif
 typedef unsigned char uchar;
 typedef unsigned char ubyte;
@@ -50,6 +50,10 @@ int main(int argc, char** argv) then
     end
 
     printf("4 + 6 = %d", add(4, 6));
+
+    what mynum = 4;
+
+    printf("what is %d", mynum);
 
     peace out;
 end
