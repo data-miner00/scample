@@ -1,3 +1,4 @@
+#include <raylib.h>
 #include <stdio.h>
 #include <sys/utime.h>
 #include <stdint.h>

@@ -20,7 +20,16 @@ add_executable(
   main.c
 )
 
+set(RAYLIB_PATH "D:/src/raylib/src")
+
 target_include_directories(
   ${PROJECT_NAME}
   PUBLIC "include"
+  PUBLIC ${RAYLIB_PATH}
 )
+
+target_link_libraries(
+  ${PROJECT_NAME}
+  PUBLIC ${RAYLIB_PATH}
+)
+
