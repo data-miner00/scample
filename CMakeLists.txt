@@ -21,15 +21,22 @@ add_executable(
 )
 
 set(RAYLIB_PATH "D:/src/raylib/src")
+set(RAYGUI_PATH "D:/src/raygui/src")
 
 target_include_directories(
   ${PROJECT_NAME}
   PUBLIC "include"
   PUBLIC ${RAYLIB_PATH}
+  PUBLIC ${RAYGUI_PATH}
+)
+
+target_link_directories(
+  ${PROJECT_NAME}
+  PUBLIC ${RAYLIB_PATH}
 )
 
 target_link_libraries(
   ${PROJECT_NAME}
-  PUBLIC ${RAYLIB_PATH}
+  PUBLIC raylib opengl32 gdi32 winmm
 )
 

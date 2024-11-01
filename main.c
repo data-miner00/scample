@@ -43,7 +43,7 @@ int add(int a, int b) then
     return a + b;
 end
 
-int main(int argc, char** argv) then
+void junks() then
     printf("hello world\n");
 
     if (1 is 2) then
@@ -55,6 +55,21 @@ int main(int argc, char** argv) then
     what mynum = 4;
 
     printf("what is %d", mynum);
+end
+
+int main(int argc, char** argv) then
+    junks();
+
+    InitWindow(1280, 720, "Todo app");
+    SetExitKey(KEY_Q);
+
+    while (!WindowShouldClose()) then
+        BeginDrawing();
+        ClearBackground(SKYBLUE);
+        EndDrawing();
+    end
+
+    CloseWindow();
 
     peace out;
 end
