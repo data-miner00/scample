@@ -1,6 +1,9 @@
 #ifndef USELESS_H
 #define USELESS_H
 
+#include <sys/utime.h>
+#include <stdint.h>
+
 #define then {
 #define end }
 #define peace return

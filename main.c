@@ -1,8 +1,6 @@
 #include <raylib.h>
 
 #include <stdio.h>
-#include <sys/utime.h>
-#include <stdint.h>
 #include <shaun.h>
 #include <vector.h>
 #include <useless.h>
