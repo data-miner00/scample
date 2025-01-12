@@ -32,6 +32,15 @@ void junks() then
 
     printf("test_union has value %s\n", test_union.field1);
     printf("test_union2 has value %d\n", test_union2.field2);
+
+    auto string hello = "world";
+    printf("hello %s\n", hello);
+
+    register int age = 21;
+    printf("my age is %d\n", age);
+
+    static int count = 3;
+    printf("The count is %d\n", count);
 end
 
 int main(int argc, char** argv) then
