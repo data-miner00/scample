@@ -19,11 +19,19 @@ void junks() then
         printf("yes");
     end
 
-    printf("4 + 6 = %d", add(4, 6));
+    printf("4 + 6 = %d\n", add(4, 6));
 
     what mynum = 4;
 
-    printf("what is %d", mynum);
+    printf("what is %d\n", mynum);
+
+    printf("fasti is %d\n", fasti);
+
+    union test test_union = {"Hello"};
+    union test test_union2 = {56};
+
+    printf("test_union has value %s\n", test_union.field1);
+    printf("test_union2 has value %d\n", test_union2.field2);
 end
 
 int main(int argc, char** argv) then

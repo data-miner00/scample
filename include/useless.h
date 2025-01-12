@@ -3,6 +3,8 @@
 
 #include <sys/utime.h>
 #include <stdint.h>
+#include <inttypes.h>
+int_fast8_t fasti = 42;
 
 #define then {
 #define end }
