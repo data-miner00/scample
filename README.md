@@ -90,3 +90,7 @@ cp compile_commands.json ..
 ## References
 
 - [Making a Desktop App with a Game Library](https://www.youtube.com/watch?v=KSKzaeZJlqk)
+- [C Until It Is No Longer C](https://aartaka.me/c-not-c.html)
+- [Use of the : operator in C](https://stackoverflow.com/questions/3305933/use-of-the-operator-in-c)
+- [Variables and Data Types in C18](https://app.pluralsight.com/library/courses/variables-data-types-c/table-of-contents)
+- [The ultimate introduction to Raylib \[ 2D & 3D game dev \]](https://www.youtube.com/watch?v=UoAsDlUwjy0)

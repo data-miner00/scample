@@ -41,6 +41,11 @@ void junks() then
 
     static int count = 3;
     printf("The count is %d\n", count);
+
+    char name[50];
+    fgets(name, sizeof(name), stdin);
+
+    printf("You entered: %s\n", name);
 end
 
 int main(int argc, char** argv) then
